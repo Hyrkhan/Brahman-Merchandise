@@ -1,0 +1,1494 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.mainDiv {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: Arial, sans-serif;
+}
+.topDiv {
+    display: flex;
+    height: 13%;
+    width: 100%;
+}
+.topLeftDiv{
+    background-color: #640d14;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.siteLogoDiv {
+    background-image: url(images/brahmanmerchlogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110%;
+    width: 110%;
+}
+.topRightDiv {
+    background-color: #800e13;
+    height: 100%;
+    width: 100%;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.topHeaderDiv, .notifProfileDiv {
+    /*background-color: gray;*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.topHeaderDiv {
+    width: 65%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.welcomeHeader, .textHeader {
+    /*background-color: aqua;*/
+    width: 95%;
+    height: 30%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 25px;
+    color: white;
+}
+.textHeader {
+    font-weight: bold;
+}
+.notifProfileDiv {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+}
+.notifDiv, .profileDiv {
+    /*background-color: aqua;*/
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notifDiv {
+    width: 30%;
+}
+.btn_notification {
+    background-color: #0f4143;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+.btn_notification:hover {
+    background-color: #da6124;
+}
+.notif_image {
+    background-image: url(images/icons/notifIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70%;
+    width: 80%;
+}
+.profileDiv {
+    width: 70%;
+}
+.profile{
+    background-color: #0f4143;
+    height: 70px;
+    width: 250px;
+    border-radius: 30px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileLeft, .profileRight {
+    /*background-color: antiquewhite;*/
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileLeft {
+    /*background-color: gray;*/
+    width: 30%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.userProfPic {
+    /*background-color: rgb(24, 155, 42);*/
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url(images/brahman-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.profileRight {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 70%;
+    flex-direction: column;
+}
+.userFullname, .userCredentials {
+    /*background-color: green;*/
+    height: 50%;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.userFullname {
+    border-top-right-radius: 30px;
+    padding: 0px;
+    margin: 0px;
+    align-items: end;
+    font-weight: bold;
+}
+.userCredentials {
+    border-bottom-right-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.userCourse, .userOccupation {
+    height: 100%;
+    width: 50%;
+}
+
+
+/************************************************************************/
+
+.searchBarDiv, .categoryNavDiv{
+    /*background-color: gray;*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+.searchBarDiv{
+    width: 40%;
+    margin-top: 10px;
+}
+.categoryNavDiv {
+    width: 25%;
+    flex-direction: column;
+}
+.notifProfileDiv2{
+    width: 30%;
+}
+.searchBar {
+    background-color: white;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+form.searchBar input[type=text] {
+    border: 0px;
+    height: 35px;
+    width: 275px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 5px;
+}
+.searchIcon {
+    background-color: white;
+    background-image: url(images/icons/searchIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.categoryLabel, .categoryLabel2{
+    /*background-color: aqua;*/
+    margin: 0px;
+    padding: 0px;
+    width: 170px;
+    margin-bottom: 5px;
+    color: white;
+}
+.dropDownCont {
+    height: 40px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+
+/************************************************************************/
+
+
+.middleDiv, .middleDiv2 {
+    background-color: whitesmoke;
+    display: flex;
+    height: 87%;
+    width: 100%;
+    flex-grow: 1;
+}
+.middleLeftDiv {
+    background-color: #640d14;
+    height: 100%;
+    width: 255px;
+    border-top: #f2c744 solid 1px;
+    border-right: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FirstNavDiv, .SecondNavDiv, .ThirdNavDiv{
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+
+}
+.ThirdNavDiv {
+    height: 20%;
+}
+
+.FirstNavList, .SecondNavList, .ThirdNavList {
+    /*background-color: gray;*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+}
+.FirstNavList a, .SecondNavList a, .ThirdNavList a {
+    /*background-color: wheat;*/
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 25%;
+    width: 100%;
+}
+.FirstNavList a {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: 100%;
+    width: 100%;
+}
+.SecondNavList a, .ThirdNavList a {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.FirstNavList a:hover, .SecondNavList a:hover, .ThirdNavList a:hover {
+    background-color: #da6124;
+}
+.currentPage{
+    background-color: #da6124;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: black solid 2px;
+    border-left: 0px;
+}
+.middleContentDiv {
+    /*background-color: antiquewhite;*/
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleContentDiv .left {
+    /*background-color: gray;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latestOrders {
+    margin-top: 15px;
+    background-color: #0f4143;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+}
+.latestOrders img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.middleContentDiv .right2{
+    /*background-color: violet;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashboardFilter {
+    /*background-color: gray;*/
+    height: 10%;
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.dashboardFilter button {
+    background-color: #0f4143;
+    height: 40px;
+    width: 30%;
+    border-radius: 25px;
+    color: white;
+    
+}
+
+.dashboardLatest {
+    margin-top: 15px;
+    background-color: #0f4143;
+    height: 550px;
+    width: 500px;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboardLatest img
+{
+    height: 95%;
+    width: 95%;
+}
+.underConstruct {
+    background-image: url(images/WIP.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 50%;
+}
+
+/************************************************************************/
+
+
+
+
+/*LOGIN PAGE*/
+.topLeftDiv2 {
+    background-color: #800e13;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topRightDiv2 {
+    background-color: #800e13;
+    height: 100%;
+    width: 80%;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    display: flex;
+    justify-content: right;
+    border: 0px;
+}
+/*
+.topLeftDiv2 {
+    background-color: aqua;
+}
+.topRightDiv2 {
+    background-color: #f2c744;
+}
+*/
+ul.navList {
+    /*background-color: gray;*/
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: 85%;
+    margin: 0px;
+    font-size: x-large;
+}
+ul.navList a {
+    /*background-color: #da6124;*/
+    width: auto;
+    height: 100%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    color: white;
+}
+ul.navList a:hover {
+    background-color: #da6124;
+}
+.middleDiv2 {
+    background-color: whitesmoke;
+    position: relative; /* Add this */
+}
+.middleDiv2 .BMDesign2 {
+    background-image: url(images/BMDesign2.2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    position: absolute; /* Change this */
+    top: 58%; /* Center it vertically */
+    left: 53%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    z-index: 2; /* Ensure it is behind promoDiv */
+}
+.middleLeft {
+    /*background-color: antiquewhite;*/
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add this */
+}
+.BMDesign1 {
+    background-image: url(images/BMDesign1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 600px;
+    position: absolute; /* Change this */
+    top: 50%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    z-index: 1; /* Ensure it is behind promoDiv */
+}
+.promoDiv {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    position: relative; /* Add this */
+    z-index: 3; /* Ensure promoDiv is in front */
+}
+.promoDiv .left{
+    background-color: #f2c744;
+    width: 40%;
+    height: 98%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    z-index: 3; /* Ensure it is in front of promoBack */
+}
+.promoDiv .left p{
+    /*background-color: gold;*/
+    height: 60%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #800e13;
+}
+.promoDiv .left .promoLogo {
+    /*background-color: blueviolet;*/
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.promo {
+    background-image: url(images/shopSite.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 90%;
+}
+
+.promoDiv .right{
+    /*background-color: red;*/
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3; /* Ensure it is in front of promoBack */
+}
+.promoDiv .right .top{
+    background-image: url(images/UBMasterLogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-color: gray;*/
+    height: 45%;
+    width: 80%;
+    margin-top: 5%;
+
+}
+.promoDiv .right .bottom {
+    /*background-color: antiquewhite;*/
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poweredBy {
+    background-image: url(images/poweredBy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: 100%;
+}
+
+
+
+
+
+
+.middleRight {
+    /*background-color: aquamarine;*/
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleRight .BMDesign2-2 {
+    background-image: url(images/BMDesign2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 400px;
+    position: absolute; /* Change this */
+    top: 50%; /* Center it vertically */
+    left: 70%;
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    z-index: 2; /* Ensure it is behind promoDiv */
+}
+.middleRight .BMDesign1-2 {
+    background-image: url(images/BMDesign1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 600px;
+    position: absolute; /* Change this */
+    top: 50%; /* Center it vertically */
+    left: 77%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    z-index: 1; /* Ensure it is behind promoDiv */
+}
+.loginFormDiv {
+    background-color: #b8b9bb;
+    height: 650px;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    position: relative; /* Add this */
+    z-index: 3; /* Ensure promoDiv is in front */
+}
+.loginFormDiv2 {
+    background-color: #b8b9bb;
+    height: 500px;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    position: relative; /* Add this */
+    z-index: 3; /* Ensure promoDiv is in front */
+}
+.lFtopDiv2 {
+    background-color: #ffa338;
+    height: 15%;
+    width: 98%;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lFmiddleDiv2 {
+    /*background-color: aqua;*/
+    height: 80%;
+    width: 100%;
+}
+.lFtopDiv {
+    background-color: #ffa338;
+    height: 10%;
+    width: 98%;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lFtopDiv p, .lFtopDiv2 p{
+    /*background-color: aquamarine;*/
+    width: 80%;
+    font-size: 23px;
+    font-weight: bold;
+}
+.lFmiddleDiv {
+    /*background-color: aqua;*/
+    height: 65%;
+    width: 100%;
+}
+.loginForm {
+    /*background-color: blueviolet;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lF-top {
+    /*background-color: #800e13;*/
+    height: 80%;
+    width: 80%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginForm input[type="text"], .loginForm input[type="password"] {
+    height: 10%;
+    border-radius: 15px;
+    border: solid black 2px;
+}
+.lF-bot {
+    /*background-color: #f2c744;*/
+    width: 90%;
+    height: 5%;
+    display: flex;
+}
+.lF-bot a {
+    color: #800e13;
+}
+.lF-bot a#forgot
+{
+    margin-left: 130px;
+}
+.lF-bot a#forgor
+{
+    margin-left: 230px;
+}
+.lF-button {
+    /*background-color: aliceblue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17%;
+}
+.lF-button p {
+    margin: 0px;
+    margin-top: 5px;
+}
+.lF-button p a {
+    color: green;
+    text-decoration: none;
+}
+.lF-button p a:hover {
+    text-decoration: underline;
+}
+.btn_login {
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+
+
+.lFbottomDiv {
+    /*background-color: tan;*/
+    height: 25%;
+    width: 100%;
+}
+hr.hr1 {
+    border-top: 3px dashed black;
+}
+.otherButtons {
+    /*background-color: gray;*/
+    height: 80%;
+    display: flex;
+}
+.ubMailLogin {
+    /*background-color: aqua;*/
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ubMailLogin button {
+    background-color: #da6124;
+}
+.registerButton {
+    /*background-color: #f2c744;*/
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registerButton button {
+    background-color: lightskyblue;
+}
+.otherButtons button {
+    
+    height: 40px;
+    width: 60%;
+    border-radius: 25px;
+    border: solid black 1px;
+    color: white;
+}
+
+
+.bottomDiv {
+    background-color: #636363;
+    margin-top: auto;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 500;
+}
+.bottomDiv ul {
+    /*background-color: aqua;*/
+    width: 400px;
+    height: 60%;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.bottomDiv ul a{
+    /*background-color: #b8b9bb;*/
+    width: 20%;
+    height: 100%;
+    margin-right: 5%;
+}
+.twitt, .fb, .insta {
+    background-image: url(images/icons/twittIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.twitt {
+    background-image: url(images/icons/twittIcon.png);
+}
+.fb{
+    background-image: url(images/icons/fbIcon.png);
+}
+.insta{
+    background-image: url(images/icons/instIcon.png);
+}
+
+/************************************************************************/
+
+/*REGISTER PAGE*/
+
+.middleLeft2 {
+    /*background-color: antiquewhite;*/
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.promoDiv {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    border: solid black 1px;
+}
+.middleRight {
+    /*background-color: aquamarine;*/
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.regFormLabelDiv {
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.regFormLabelDiv p {
+    /*background-color: gray;*/
+    width: 90%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.regFormLabelDiv p#regLabel2 {
+    margin: 0px;
+    font-size: 17px;
+    font-weight: initial;
+    color: green;
+}
+.regFormLabelDiv p#regLabel2 a {
+    color: green;
+}
+.middleLeft2 form {
+    height: 85%;
+    width: 100%;
+    /*background-color: #f2c744;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+}
+.regFormContent {
+    /*background-color: violet;*/
+    width: 95%;
+    height: 75%;
+    display: flex;
+}
+.regFormContent .left, .right {
+    width: 50%;
+    height: 100%;
+}
+.middleLeft2 form input[type="text"], input[type="password"] {
+    height: 10%;
+    width: 90%;
+    border-radius: 35px;
+    border: solid black 1px;
+    margin-top: 10%;
+}
+.regFormButtons{
+    /*background-color: teal;*/
+    width: 95%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.regFormButtons .radios {
+    /*background-color: #636363;*/
+    width: 95%;
+    height: 40%;
+    font-weight: bold;
+    display: flex;
+}
+.radios input[type="radio"] {
+    border: 0px;
+    width: 50%;
+    height: 20px;
+}
+.regFormButtons .regButton {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regButton input[type="submit"] {
+    background-color: rgb(48, 168, 48);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 180px;
+    border-radius: 25px;
+    border: solid black 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/************************************************************************/
+
+/*PROFILE PAGE*/
+.middleContentDiv_prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 85%;
+}
+.profileCardDiv {
+    background-color: #0f4143;
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.topCard, .bottomCard {
+    width: 100%;
+}
+.topCard {
+    /*background-color: gray;*/
+    height: 60%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: solid gold 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstTopCard, .secondTopCard, .thirdTopCard {
+    /*background-color: aqua;*/
+    height: 92%;
+    /*-right: solid black 1px;*/
+}
+.firstTopCard {
+    width: 20%;
+}
+
+ul.profileClassiList, .profileClassiList2 {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+ul.profileClassiList li, .profileClassiList2 li {
+    /*background-color: rebeccapurple;*/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.secondTopCard {
+    width: 40%;
+}
+.thirdTopCard {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userProfilePic {
+    background-color: #800e13;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url(images/brahman-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.userID {
+    margin-top: 80px;
+    padding: 0px;
+}
+
+.bottomCard {
+    /*background-color: green;*/
+    height: 40%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: solid gold 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstBottomCard, .secondBottomCard, .thirdBottomCard {
+    /*background-color: aqua;*/
+    height: 100%;
+    /*border-right: solid black 1px;*/
+    
+}
+.firstBottomCard {
+    width: 20%;
+    border-bottom-left-radius: 20px;
+}
+.secondBottomCard {
+    width: 40%;
+}
+.thirdBottomCard {
+    width: 40%;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileClassiList2 {
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profileClassiList2 li {
+    /*background-color: rebeccapurple;*/
+    margin-bottom: 50px;
+}
+.thirdBottomCard p {
+    margin: 0px;
+    height: 70px;
+    width: 300px;
+    /*background-color: #640d14;*/
+}
+.thirdBottomCard p a{
+    /*background-color: #636363;*/
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #da6124;
+}
+.thirdBottomCard p a:hover {
+    background-color: #da6124;
+    color: white;
+}
+
+/************************************************************************/
+
+/*PRODUCTS PAGE*/
+
+.middleContentDiv#itemCatalog {
+    /*background-color: gray;*/
+    display: flex;
+    flex-direction: column;
+}
+.topDivItemCat {
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+ul#breadCrumbs {
+    /*background-color: aliceblue;*/
+    height: 100%;
+    width: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+}
+.categoryLabel2{
+    color: black;
+}
+.sortByDept {
+    /*background-color: gray;*/
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ItemCatDiv {
+    /*background-color: gold;*/
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-list {
+    /*background-color: violet;*/
+    height: 95%;
+    width: 95%;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    flex-wrap: wrap;
+    overflow-y:auto;
+}
+.items-list li {
+    /*background-color: aqua;*/
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-pic {
+    /*background-color: blue;*/
+    height: 100%;
+    width: 100%;
+}
+.item-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.item-price {
+    background-color: black;
+    color: #f2c744;
+    height: 25px;
+    width: 70px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.item-button {
+    height: 180px;
+    width: 180px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/************************************************************************/
+
+/*HISTORY PAGE*/
+
+.ContentCardDiv {
+    background-color: #0f4143;
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow-y:auto;
+}
+.ContentCardDiv table {
+    color: white;
+    width: 95%;
+    margin-top: 20px;
+    overflow-y:auto;
+}
+tr#historyHeader {
+    background-color: #f2c744;
+    color: black;
+    height: 50px;
+    width: auto;
+}
+tr#historyData {
+    height: 50px;
+    width: auto;
+}
+.history-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+.history-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/************************************************************************/
+
+
+/*PRODUCTS DESC*/
+
+.ItemCatDiv2 {
+    /*background-color: gold;*/
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemDivLeft {
+    /*background-color: gray;*/
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.itemDivLeft-top {
+    /*background-color: gold;*/
+    height: 50%;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemDivImage {
+    height: 300px;
+    width: 320px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.itemDivLeft-bot {
+    /*background-color: green;*/
+    height: 50%;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p#itemDivDesc {
+    /*background-color: blueviolet;*/
+    height: 300px;
+    width: 450px;
+    margin: 0px;
+    padding: 0x;
+    font-size: 25px;
+    display: flex;
+    justify-content: start;
+    margin-left: 70px;
+}
+.itemDivRight {
+    /*background-color: blanchedalmond;*/
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productDeets {
+    background-color: #0f4143;
+    height: 650px;
+    width: 720px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+.deetsTopDiv {
+    /*background-color: #636363;*/
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.deetsTopDiv p {
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    margin-left: 20px;
+    /*background-color: turquoise;*/
+    width: 50%;
+}
+.deetsTopDiv button {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+} 
+.deetsMidDiv {
+   /* background-color: #800e13;*/
+    width: 100%;
+    height: 60%;
+}
+table#deetsTable {
+    /*background-color: aqua;*/
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+}
+table#deetsTable td#deetsRadios {
+    /*background-color: #b8b9bb;*/
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.deetsAllRadio input[type=radio] {
+    transform: scale(2.5);
+}
+table#deetsTable td#deetsRadios ul {
+    /*background-color: #640d14;*/
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    margin: 0px;
+}
+table#deetsTable td#deetsRadios ul li{
+    /*background-color: gold;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin-right: 20px;
+}
+input[type=number]#quantity {
+    height: 40px;
+    width: 70px;
+    font-size: 30px;
+}
+.deetsBotDiv {
+   /*background-color: turquoise;*/
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.deetsBotLeft {
+   /*background-color: rebeccapurple;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+span#deetsTotal {
+    background-color: white;
+    width: 85%;
+    height: 40%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.deetsBotRight {
+    /*background-color: tan;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deetsBotRight input[type=submit] {
+    background-color: #da6124;
+    color: white;
+    height: 130px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+/************************************************************************/
+
+/*CART PAGE*/
+
+.ContentCardDiv2 {
+    background-color: #0f4143;
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow-y:auto;
+}
+
+table#cartTable {
+    color: white;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.CheckoutDiv {
+    /*background-color: aqua;*/
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Fixes the div in place */
+    bottom: 35px; /* Positions the div 20px from the bottom of the screen */
+    left: 77%; /* Centers the div horizontally */
+    transform: translateX(-50%); /* Adjusts the position to account for the element's width */
+    z-index: 1000; /* Ensures it appears above other content */
+}
+.cartTotalPrice {
+    background-color: white;
+    height: 80%;
+    width: 50%;
+    color: black;
+    margin-right: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.checkOut {
+    /*background-color: #888888;*/
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.checkOut input[type=submit] {
+    height: 80px;
+    width: 170px;
+    border-radius: 20px;
+    background-color: #f2c744;
+    font-size: 20px;
+}
+.remove_btn {
+    height: 30px;
+    width: 70px;
+}
+
+/************************************************************************/

@@ -1,0 +1,286 @@
+/************************************************************************/
+
+/*CART PAGE*/
+.middleContentDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.topContentDiv2{
+    /*background-color: aqua;*/
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.topContentDiv2 button {
+    background-color: #f2c744;
+    height: 80px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.ContentCardDiv2 {
+    background-color: #0f4143;
+    height: 80%;
+    width: 95%;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow-y:auto;
+}
+
+table#cartTable {
+    color: white;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.CheckoutDiv {
+    /*background-color: aqua;*/
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Fixes the div in place */
+    bottom: 35px; /* Positions the div 20px from the bottom of the screen */
+    left: 77%; /* Centers the div horizontally */
+    transform: translateX(-50%); /* Adjusts the position to account for the element's width */
+    z-index: 1000; /* Ensures it appears above other content */
+}
+.cartTotalPrice {
+    background-color: white;
+    height: 80%;
+    width: 50%;
+    color: black;
+    margin-right: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.checkOut {
+    /*background-color: #888888;*/
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkOut input[type=submit] {
+    height: 80px;
+    width: 170px;
+    border-radius: 20px;
+    background-color: #f2c744;
+    font-size: 20px;
+}
+.remove_btn {
+    height: 30px;
+    width: 70px;
+}
+
+/************************************************************************/
+
+.ContentCardDiv {
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+}
+.addProductTop {
+    /*background-color: aqua;*/
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.newProductLeft {
+    /*background-color: violet;*/
+    height: 100%;
+    width: 55%;
+}
+.newProductLeft p {
+    /*background-color: antiquewhite;*/
+    height: 10%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.addNewProd {
+    /*background-color: aqua;*/
+    height: 85%;
+    width: 100%;
+    display: flex;
+}
+.addNewProd .leftDiv {
+    /*background-color: #0f4143;*/
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.addNewProd .rightDiv {
+   /* background-color: deeppink;*/
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;   
+    margin-top: 25px; 
+}
+.addNewProd input[type="text"], .addNewProd input[type="number"]{
+    width: 85%;
+    height: 40px;
+    border-radius: 10px;
+}
+.addNewProd textarea {
+    width: 85%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.newProductRight {
+    /*background-color: blue;*/
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.uploadPic {
+    background-color: lightslategray;
+    height: 55%;
+    width: 80%;
+    margin-top: 20px;
+}
+.newProductRight button {
+    height: 60px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.addProductBot {
+    /*background-color: #f2c744;*/
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addProductBot input[type="submit"]{
+    height: 80px;
+    width: 700px;
+    border-radius: 20px;
+}
+.newItemForm {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.ContentCardDiv3 {
+    background-color: #0f4143;
+    height: 80%;
+    width: 95%;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow-y:auto;
+}
+
+
+.user-table {
+    width: 98%;
+    border-collapse: collapse;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-table td, .user-table th {
+    padding: 8px;
+    text-align: center;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.user-table input[type="text"] {
+    width: 95%; /* Make inputs smaller to fit within table cells */
+}
+
+.CheckoutDiv {
+    /*background-color: aqua;*/
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Fixes the div in place */
+    bottom: 35px; /* Positions the div 20px from the bottom of the screen */
+    left: 88%; /* Centers the div horizontally */
+    transform: translateX(-50%); /* Adjusts the position to account for the element's width */
+    z-index: 1000; /* Ensures it appears above other content */
+}
+.checkOut {
+    /*background-color: #888888;*/
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.checkOut input[type=submit] {
+    height: 80px;
+    width: 170px;
+    border-radius: 20px;
+    background-color: #f2c744;
+    font-size: 20px;
+}
+
+@media print {
+    body * {
+        visibility: hidden; 
+    }
+    
+    .ContentCardDiv3, .ContentCardDiv3 * {
+        visibility: visible; 
+    }
+
+    .ContentCardDiv3 {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .CheckoutDiv {
+        display: none; 
+    }
+}
